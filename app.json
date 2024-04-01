@@ -1,34 +1,35 @@
 {
-  "name": "Parse Dashboard Example",
-  "description": "An example Parse Dashboard server using the parse-dashboard module",
-  "repository": "https://github.com/cherukumilli/parse-dashboard-example",
+  "name": "Database Dashboard",
+  "description": "Dashboard to manage your database",
+  "repository": "https://github.com/swiftmyday/ParseDashboard-SwiftMyDay/tree/main",
   "logo": "https://avatars2.githubusercontent.com/u/5217007?v=3&u=52845c74db401e9fc5df5673460f4d6835a6118a&s=200",
-  "keywords": ["node", "express", "parse", "dashboard"],
   "env": {
     "APP_ID": {
       "description": "A unique identifier for your app.",
-      "value": "myAppId"
+      "generator": "secret",
+            "required": true
     },
     "MASTER_KEY": {
       "description": "A key that overrides all permissions. Keep this secret.",
-      "value": "myMasterKey"
-    },
-    "SERVER_URL": {
-      "description": "URL to connect to your Heroku instance (update with your app's name + PARSE_MOUNT)",
-      "value": "http://yourappname.herokuapp.com/parse"
+      "generator": "secret",
+            "required": true
     },
     "APP_NAME": {
       "description": "The name of the app that will show up in the dashboard.",
-      "value": "myAppName"
+      "required": true
+    },
+    "SERVER_URL": {
+      "description": "Replace yourappname with the app name used above (No Spaces)",
+      "value": "http://yourappname.herokuapp.com/parse",
+      "required": true
     },
     "USERNAME": {
-      "description": "The username of the account to log into the dashboard.",
-      "value": "stefanayala3266@gmail.com"
+      "description": "Username to log into your dashboard",
+      "required": true
     },
     "PASSWORD": {
-      "description": "The password of the account to log into your dashboard.",
-      "value": "parse"
+      "description": "Password to log into your dashboard",
+      "required": true
     }
-  },
-  "image": "heroku/nodejs"
+  }
 }
