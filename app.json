@@ -2,20 +2,18 @@
   "name": "Database Dashboard",
   "description": "Dashboard to manage your database",
   "repository": "https://github.com/swiftmyday/ParseDashboard-SwiftMyDay/tree/main",
-  "logo": "https://avatars.githubusercontent.com/u/158538160?v=4",
+  "logo": "https://swiftmyday.github.io/Deposit/Logo.png",
   "env": {
     "APP_ID": {
-      "description": "A unique identifier for your app.",
-      "generator": "secret",
+      "description": "Your server APP ID",
       "required": true
     },
     "MASTER_KEY": {
-      "description": "A key that overrides all permissions. Keep this secret.",
-      "generator": "secret",
+      "description": "Your server MASTER KEY",
       "required": true
     },
     "SERVER_URL": {
-      "description": "Replace with your actual server URL",
+      "description": "Your actual server URL",
       "value": "http://yourappname.herokuapp.com/parse",
       "required": true
     },
