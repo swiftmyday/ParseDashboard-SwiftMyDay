@@ -3,7 +3,7 @@
 
 Parse Dashboard version made by SwiftMyDay from the amazing [Parse Dashboard](https://github.com/parse-community/parse-dashboard). 
 
-Thanks to all the team behind the [Parse Dashboard](https://github.com/parse-community/parse-dashboard)) for making this amazing dashboard.
+Thanks to all the team behind the [Parse Dashboard](https://github.com/parse-community/parse-dashboard) for making this amazing dashboard.
 
 
 
