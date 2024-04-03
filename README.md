@@ -1,7 +1,8 @@
 
 ![parse-repository-header](https://swiftmyday.github.io/Deposit/Dashboard-banner-2.png)
 
-Parse Dashboard version made by SwiftMyDay from the amazing [Parse Dashboard](https://github.com/parse-community/parse-dashboard). 
+This dashboard will connect with the <b>SwiftMyDay Parse Server</b>  from here [SwiftMyDay Parse Server](https://github.com/swiftmyday/ParseServer-SwiftMyDay)
+
 
 Thanks to all the team behind the [Parse Dashboard](https://github.com/parse-community/parse-dashboard) for making this amazing dashboard.
 
