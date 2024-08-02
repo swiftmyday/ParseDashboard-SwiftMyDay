@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: swiftmyday-ParseDashboard
+    env: node
+    plan: free
+    buildCommand: 'npm install'
+    startCommand: 'npm start'
+    envVars:
+      - key: APP_ID
+        sync: false
+      - key: MASTER_KEY
+        sync: false
+      - key: SERVER_URL
+        sync: false
+      - key: APP_NAME
+        sync: false
+      - key: USERNAME
+        sync: false
+      - key: PASSWORD
+        sync: false
