@@ -3,6 +3,7 @@
 var express = require('express');
 var ParseDashboard = require('parse-dashboard');
 var path = require('path');
+require('./config.js');
 
 let localParseServer = 'http://localhost:1337/parse';
   // Heroku requires HTTPS. Please read the README file for details.
@@ -32,5 +33,8 @@ app.use('/', dashboard);
 var port = process.env.PORT || 4040;
 var httpServer = require('http').createServer(app);
 httpServer.listen(port, function() {
-  console.log('parse-dashboard-example running on port ' + port + '.');
+  console.log('✅ Parse dashboard running!')
+  console.log('\n');
+  console.log("Open the dashbord here -> http://localhost:" + port);
+  // console.log('parse-dashboard-example running on port ' + port + '.');
 });
