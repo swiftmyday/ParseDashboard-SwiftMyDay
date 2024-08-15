@@ -51,24 +51,16 @@ If you already created an account for your parse server, you can also deploy you
 
 
 <br></br>
-# Deploy your Parse Dashboard locally 🖥️
+## Deploy locally in your computer 🖥️
 
-To run the server on your local machine just follow these steps:
+To run the Parse Dashboard on your local machine just follow these steps:
 
 1. Make sure to have the latest Node js version installed [NodeJS](https://nodejs.org/en)
-2. Clone this repository and change directory to it.
-3. Run `npm install`. Sometimes `sudo npm install` is needed.
-4. Open index.js and replace the following values:
-
-  - `myAppId` for your server appId
-  - `myMasterKey` for your server masterKey
-  -  Replace `http://localhost:1337/parse` for your server URL. For local development keep it as is.
-  - `process.env.USERNAME` for any username you want to use to login
-  - `process.env.USERNAME` for any password you wan to use to login
-
-5. Back in terminal run `npm start`
-
-Your parse dashboard is now running locally. Open your browser and go to `localhost:4040`
+2. Open terminal and type `git clone https://github.com/swiftmyday/ParseServer-SwiftMyDay`
+3. Type `cd ParseDashboard-SwiftMyDay`.
+4. Type `npm run setup` or `sudo npm run setup`
+5. You will be required to provide the server credentials.
+6. Launch Parse Dashboard with `npm start` and your will be provided with the URL of your Dashboard.
 
 
 [license-svg]: https://img.shields.io/badge/license-BSD-lightgrey.svg
